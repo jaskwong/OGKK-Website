@@ -2,9 +2,8 @@
 -------------------------
 Contriutors
 -------------------------
-    Crystal Kwong (crystal-ck7)
-    Jasmine Kwong (jaskwong)
-
+    Crystal Kwong
+    Jasmine Kwong
 
 -------------------------
 Summary

@@ -1,0 +1,151 @@
+body{
+  background-color: rgb(41, 38, 34);
+  font-family: 'Ubuntu', sans-serif;
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+.side_bar{
+  width: 220px;
+  height: 100%;
+  position: fixed;
+  left: 75px;
+  top: 0%;
+  background-color: rgb(211, 31, 37);
+}
+
+.header{
+    text-align: center;
+    padding-top: 15px;
+    font-size: 19px;
+    text-transform: uppercase;
+    line-height: 1.25em;
+}
+
+.header a{
+  color: white;
+}
+
+#small_logo{
+  position: relative;
+  width: 75%;
+  left: 12.5%;
+  bottom: 0%;
+}
+
+#navigation{
+    display: grid;
+    position: relative;
+    z-index: 1;
+    padding-right: 5px;
+    padding-left: 5px;
+    grid-template-columns: 230px;
+    grid-auto-rows: minmax(70px, 1fr);
+    grid-row-gap: 1fr;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#navigation .menu_item{
+  background:white;
+  font-weight: 600;
+  padding: 12px 5px;
+  border-style: solid;
+  border-width: 1.5px;
+  border-color:  rgb(70, 64, 57);
+  border-radius: 5px;
+  text-align: center;
+  font-size: 15px;
+}
+
+#navigation .menu_item:hover a{
+  color: white;
+}
+
+#navigation .menu_item:hover{
+  background: rgb(41, 38, 34);
+}
+
+#navigation .menu_item a{
+  color: rgb(41, 38, 34);
+  text-transform: uppercase;
+}
+
+.student_material{
+  display: none;
+  line-height: 2em;
+  z-index: 3;
+  position: absolute;
+  left: 102%;
+  top: 25%;
+  background: rgba(105, 102, 102, 0.8);
+  padding-bottom: 1em;
+  padding-top: 0.5em;
+  margin-top: 1em;
+  border-radius: 0px 0px 10px 10px;
+  text-align: initial;
+  font-weight: 400;
+  width: 100%;
+}
+
+.student_material :hover a{
+  color: white;
+  font-weight: bold;
+}
+
+#student_materials:hover .student_material{
+  display: block;
+  z-index: 3;
+}
+
+
+.photo_collage{
+  z-index: -1;
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1.5fr));
+  grid-auto-rows: auto;
+  grid-auto-flow: dense;
+  position: absolute;
+  top: 35px;
+  left: 350px;
+  max-width: 70%;
+}
+
+.photo_collage img{
+  width: 100%;
+  max-height: 100%;
+  border: solid;
+  border-color: rgb(83, 72, 56);
+  border-width: 3px;
+}
+
+.vertical {
+  grid-row: span 2;
+}
+
+#footer{
+font-size: 12px;
+color: white;
+bottom: 0%;
+position: fixed;
+display: grid;
+grid-template-columns: auto 100px;
+grid-gap: 5%;
+margin-top: 15px;
+padding-left: 30px;
+left: 295px;
+background: rgba(105, 102, 102, 0.8);
+}
+
+#disclaimer{
+font-style: italic;
+min-width: 300px;
+}

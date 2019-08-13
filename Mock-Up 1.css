@@ -86,7 +86,7 @@ a:hover {
   font-size: 12px;
   color: gray;
   bottom: 0%;
-  position: relative;
+  position: fixed;
   display: grid;
   grid-template-columns: auto 100px;
   grid-gap: 5%;

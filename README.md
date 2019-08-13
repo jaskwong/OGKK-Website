@@ -1,10 +1,9 @@
-# OGKK-Website
+# OGKK_Website_2019
 -------------------------
 Contriutors
 -------------------------
     Crystal Kwong
     Jasmine Kwong
-
 
 -------------------------
 Summary

@@ -1,5 +1,8 @@
+body{
+  font-family: 'Lato', sans-serif;
+}
+
 .header{
-  font-family: Trebuchet MS;
   text-transform: uppercase;
   letter-spacing: 0.01em;
   color: black;
@@ -9,10 +12,6 @@
   background-size: auto 100%;
   background-position: right;
   background-repeat: no-repeat;
-}
-
-body{
-  font-family:  Trebuchet MS;
 }
 
 .main_content{
